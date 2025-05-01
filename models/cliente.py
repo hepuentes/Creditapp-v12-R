@@ -1,6 +1,6 @@
 from sqlalchemy.dialects.postgresql import UUID
 import uuid
-from app import db
+from datetime import datetime
 
 class Cliente(db.Model):
     __tablename__ = 'cliente'
